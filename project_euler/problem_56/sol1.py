@@ -19,7 +19,7 @@ def maximum_digital_sum(a: int, b: int) -> int:
     # BASE raised to the POWER
     return max(
         [
-            sum([int(x) for x in str(base ** power)])
+            sum([int(x) for x in str(base**power)])
             for base in range(a)
             for power in range(b)
         ]

@@ -19,7 +19,7 @@ def surface_area_cube(side_length: float) -> float:
     """
     if side_length < 0:
         raise ValueError("surface_area_cube() only accepts non-negative values")
-    return 6 * side_length ** 2
+    return 6 * side_length**2
 
 
 def surface_area_sphere(radius: float) -> float:
@@ -39,7 +39,7 @@ def surface_area_sphere(radius: float) -> float:
     """
     if radius < 0:
         raise ValueError("surface_area_sphere() only accepts non-negative values")
-    return 4 * pi * radius ** 2
+    return 4 * pi * radius**2
 
 
 def area_rectangle(length: float, width: float) -> float:
@@ -79,7 +79,7 @@ def area_square(side_length: float) -> float:
     """
     if side_length < 0:
         raise ValueError("area_square() only accepts non-negative values")
-    return side_length ** 2
+    return side_length**2
 
 
 def area_triangle(base: float, height: float) -> float:
@@ -183,7 +183,7 @@ def area_circle(radius: float) -> float:
     """
     if radius < 0:
         raise ValueError("area_circle() only accepts non-negative values")
-    return pi * radius ** 2
+    return pi * radius**2
 
 
 def main():
